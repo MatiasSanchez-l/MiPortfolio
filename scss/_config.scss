@@ -1,7 +1,7 @@
 //Configuracion general
 
-$primary-color: #444;
-$secondary-color: #0a8ec2;
+$primary-color: #1b1b1b;
+$secondary-color: #b92e2e;
 $show-home-image: true;
 $home-image: url('/dist/img/code-coding-computer-data-574073.jpg');
 $background-opacity: 0.9;
@@ -33,6 +33,19 @@ $background-opacity: 0.9;
                 background: rgba($primary-color, $background-opacity);
             }
         }
+    }
+}
+
+//Definir color del texto
+@function set-text-color($color)
+{
+    @if(lightness($color) > 40)
+    {
+        @return #000;
+    }
+    @else
+    {
+        @return #fff;
     }
 }
 
