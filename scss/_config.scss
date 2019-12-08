@@ -3,7 +3,7 @@
 $primary-color: #283e4a;
 $secondary-color: #0077b5;
 $show-home-image: true;
-$home-image: url('/dist/img/imagenFondo1.jpg');
+$home-image: url('../img/imagenFondo1.jpg');
 $background-opacity: 0.9;
 
 @mixin easeOut
