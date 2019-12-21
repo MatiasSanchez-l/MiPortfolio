@@ -228,5 +228,19 @@ main
     height: 60px;
 }
 
+.project-img
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.project-img img
+{
+    width: 100%;
+    height: auto;
+    width: calc(30% - 1em);
+}
+
 
 @import 'mobile';
