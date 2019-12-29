@@ -1,11 +1,13 @@
-# Trabajo Práctico Programación Web 👨‍💻
+# Portafolio 📜💻
 
-Un trabajo práctico para programación web.
+Mi portafolio
 
-## En este trabajo práctico se va a hacer:
-* 1 página de inicio  
-* 1 página de detalle de curso 
-* 1 página de calendario de próximos cursos en la plataforma 
-* 1 página de personalización de Gift Card 
-* 1 página de formulario de inscripción a curso 
-* 1 página de contacto
+## En este portafolio hay:
+* página inicio
+* página sobre mi
+* página proyectos
+* página contacto
+* simple html
+* simple css 
+* simple JavaScript
+* simple Sass
